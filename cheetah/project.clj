@@ -8,7 +8,9 @@
 
   :dependencies [[org.clojure/clojure "1.9.0-alpha14"]
                  [org.clojure/clojurescript "1.9.473"]
-                 [rum "0.10.8"]]
+                 [rum "0.10.8"]
+                 [funcool/bide "1.4.0"]
+                 [kibu/pushy "0.3.6"]]
 
   :plugins [[lein-figwheel "0.5.9"]
             [lein-cljsbuild "1.1.5" :exclusions [[org.clojure/clojure]]]]
