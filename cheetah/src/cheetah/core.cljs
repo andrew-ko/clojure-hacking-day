@@ -10,9 +10,6 @@
 
 (def route (atom))
 
-(add-watch route :logger (fn [key st old-val new-val]
-                           (println "New value is:" new-val)))
-
 (def router
   (r/router [["/" :sign-in]
              ["/main" :main]]))
